@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logotipo.PNG" alt="" width="60" height="56">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" (click)="goToProducto()">
+                    <a class="nav-link" [routerLink]="['home']"> Producto </a>
+                </li>
+
+                <li class="nav-item" (click)="goToProceso()">
+                    <a class="nav-link"> Proceso </a>
+                </li>
+
+                <li class="nav-item" (click)="goToComprar()">
+                    <a class="nav-link"> Comprar </a>
+                </li>
+
+                <li class="nav-item" (click)="goToComunidad()">
+                    <a class="nav-link"> Comunidad </a>
+                </li>
+
+                <li class="nav-item" (click)="goToContactos()">
+                    <a class="nav-link"> Contactos </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>

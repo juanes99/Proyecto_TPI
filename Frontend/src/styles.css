@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abs-inicio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: initial;
+}
+
+.margen {
+    margin-left: 10px;
+}
+
+.separacionBajo {
+    margin-bottom: 20px;
+}
+
+.separacionArriba {
+    margin-top: 20px;
+}
+
+.fondo {
+    background-color: black;
+    background-size: 100% 100%;
+}
